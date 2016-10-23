@@ -1,35 +1,46 @@
-html {
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-
+body {
+  background-color: #F2E5B5;
+  margin-right:80px;
 }
 
-.del {
-  display: inline;
-
-}
-.del {
-  text-align: left;
-}
-.ico {
-  float:right;
-
-
+h1 {
+  font-size: 35px;
+  display:inline-block;
+  font-family: 'Kaushan Script', cursive;
 }
 
-p {
-  text-indent: 5%;
+h2 {
+  font-size: 40px;
+  font-family: 'Kaushan Script', cursive;
 }
-.pri {
+
+h3 {
+  font-size: 14px;
+}
+
+#bigpizza {
+  margin-left: 230px;
+  width: 50%;
+  padding: 10px;
+}
+
+.notepad {
+  background-image: url("https://github.com/codefellows/seattle-201n6/blob/master/class-09-advanced_css_layout/lab/lab-assets/list-bg.png?raw=true");
+  display: block;
+  margin-left: 150px;
+  padding: 10px;
+}
+#print {
   float: right;
+  margin-right: 200px;
 }
-.note {
-  background-image: url("images/list-bg.png");
 
+#priss {
+  margin-left: 100px;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
 }
-.end {
-  text-align: center;
-  margin-right: 100px;
-
+p {
+  font-size: 16px;
+  margin-left: 80px;
 }
